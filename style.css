@@ -1,0 +1,256 @@
+:root{
+    --bs-gray-400: #ced4da;
+    --bs-gray-200: #e9ecef;
+    --bs-blue: #0d6efd;
+    --swiper-theme-color: #007aff;
+}
+header{
+    background-image:url(../hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.nav-link{
+    font-weight: bold;
+    font-weight: 500;
+    padding: 5px; 
+    text-transform: uppercase;
+
+    
+}
+header h3::after{
+    content: "  |";
+    animation-name: typing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing{
+    0%{content: "f|";}
+    5%{content: " fr|";}
+    10%{content: " fre|";}
+    15%{content: " free|";}
+    20%{content: " freel;|";}
+    25%{content: " freela|";}
+    30%{content: " freelan|";}
+    35%{content: " freelanc|";}
+    40%{content: " freelance|";}
+    45%{content: " freelancer|";}
+    50%{content: "freelancer.|";}
+    55%{content: "freelance|";}
+    60%{content: "freelanc|";}
+    65%{content: "freelan|";}
+    70%{content: "freela|";}
+    75%{content: "freel|";}
+    80%{content: "free|";}
+    85%{content: "fre|";}
+    90%{content: "fr|";}
+    95%{content: "f|";}
+    100%{content: "|";}
+    
+    
+}
+.nav-link:hover{
+    border-bottom: solid 2px white;
+}
+.card-body span{
+    color:black ;
+
+}
+.card-body p{
+    color: gray;
+}
+.percent{
+    width: 500px;
+    height: 15px;
+    background-color: var(--bs-gray-200);
+}
+.child1{
+    width: 85%;
+    height: 100%;
+    background-color: var(--bs-blue);
+}
+.child2{
+    width: 75%;
+    height: 100%;
+    background-color: var(--bs-blue);
+}
+.child3{
+    width: 50%;
+    height: 100%;
+    background-color: var(--bs-blue);
+}
+.child4{
+    width: 90%;
+    height: 100%;
+    background-color: var(--bs-blue);
+}
+.card-title{
+    position: relative;
+}
+.card-title::after{
+    content: "";
+    background-color: #0078ff;
+    width: 150px ;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    margin-bottom: 20px;
+}
+.contact{
+    background-image: url(../istockphoto-1219243031-170667a.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.send-message{
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.send-message::after{
+    content: "";
+    background-color: #0078ff;
+    width: 100px ;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    margin-top: 10px;;
+   
+   
+}
+.fa-solid{
+    color: var(--swiper-theme-color);
+    
+
+}
+.icon{
+    
+    width: 2rem;
+    height: 2rem;
+}
+.icon2{
+    width: 2rem;
+    height: 2rem;
+}
+.text p{
+    position: relative;
+}
+.text p::after{
+    content:"";
+    width: 5%;
+    height: 5px;
+    background-color: #007aff;
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    margin: 10px;
+
+}
+.work{
+    background-image: url(../istockphoto-1219243031-170667a.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+    
+.carousel-indicators[data-bs-slide-to]
+{
+    width: 40px;
+    height: 10px;
+    background-color: aqua;
+}
+.card-title{
+    position: relative;
+}
+.card-title::after{
+    contain: "travel";
+    width: 0px;
+    height: 5px;
+    position: absolute;
+    bottom: 100;
+}
+.card-img-top{
+    position: relative;
+}
+.up{
+    background-color: #0d6efd;
+    color: white;
+    width: 25%;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    top: 57%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+}
+.blog-title{
+    position: relative;
+}
+.card-title:hover{
+    color: var(--bs-blue);
+}
+.blog-title::after{
+    contain: "";
+    content:"";
+    width: 5%;
+    height: 5px;
+    background-color: #007aff;
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    margin: 10px;
+}
+.icon3{
+    width: 6rem;
+    height: 6rem;
+    border: 30px;  
+}
+.icon3:hover{
+    background-color:var(--swiper-theme-color) ;
+    box-shadow: 0 0 0 5px var(--bs-gray-200);
+    
+    
+}
+.fa-regular:hover{
+    color: white;
+}
+.fa-regular{
+    font-size: 32px;
+    color:black;
+}
+.services{
+    position: relative;
+}
+.services::after{
+    contain: "";
+    content:"";
+    width: 5%;
+    height: 5px;
+    background-color: #007aff;
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    margin: 10px;
+
+}
+.blue-services{
+    background-image: url(../Co-workers-working-in-start-up-office.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.icon4{
+    width: 6rem;
+    height: 6rem;
+    border: 30px; 
+
+}
+.fa-solid{
+    font-size: 26px;
+    color:blue;
+
+}
